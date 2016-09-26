@@ -1,0 +1,75 @@
+div#mainContainer {
+    border: 1px solid green;
+    width: 1200px;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+div#orange {
+    border: 1px solid orange;
+    width: 1080px;
+    margin: 50px auto;
+}
+
+div#orange::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+div#red{
+	border: 1px solid red;
+	width: 1120px;
+	
+	margin: 0px auto 30px;
+}
+
+div#red::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+div#pink {
+    border: 1px solid pink;
+    width: 260px;
+    height: 135px;
+    margin: 30px;
+    float: left;
+}
+
+
+div#blue {
+    border: 1px solid blue;
+    width: 690px;
+    margin: 30px 0px;
+    float: left;
+    
+}
+
+div#blue::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+div.green{
+	width: 200px;
+	border-top: 1px solid green;
+	border-bottom: 1px solid green;	
+	height: 95px;
+	float: left;
+	margin: 19px 0px 19px 22px;
+}
+
+div.oceanBlue{
+	border: 1px solid blue;
+	height: 150px;
+	width: 295px;
+	float: left;
+	margin: 20px 10px 20px 20px;
+}
+div.left{
+	margin: 20px 0px 20px 80px;
+	border-left: none;
+	border-right: none;
+}
